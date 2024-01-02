@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg,
+    #2F2325 16.62%, #8E5D52 85.61%)
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    height: 72px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+    font-size: 20px;
+}
+
+.cabeçalho-menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font: size 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #eee2e7
+}
+
+.conteúdo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteúdo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteúdo-principal-escrito-titulo {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #eee2e7;
+}
+
+.conteúdo-principal-escrito-subtitulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #eee2e7;
+
+}
+
+.conteúdo-principal-escrito-botao {
+    background-color: cyan;
+    width: 185px;
+    height: 65px;
+    border: none;
+    box-shadow: 4px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: blue;
+
+}
+
+.conteúdo-principal-escrito-botao:hover {
+    background-color: beige;
+
+}
+
+
+}
+
+.conteúdo-principal-imagem {
+    height: 400px;
+
+}
+
+
+.conteúdo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteúdo-secundario-titulo {
+    border-top: 0.4px solid #eee2e7;
+    padding-top: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #eee2e7;
+    margin-bottom: 16px;
+}
+
+.conteúdo-secundario-de-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #eee2e7;
+}
+
+.da {
+    width: 95px;
+    transform: rotate(90deg);
+}
+
+
+.nada {
+    text-align: center;
+
+}
+
+.conteúdo-principal-imagem {
+    border-radius: 25px;
+}
+.da{
+    border-radius: 25px;
+}
+
+.conteúdo-secundario-de-paragrafo{
+    padding-left: 20
+    px;
+    margin-left: 15px;
+
+
+}
+}
